@@ -1,0 +1,21 @@
+{
+  "name": "Flutter SIO Prebuilt",
+  // On pointe vers l'image que nous venons de fabriquer
+  "image": "ghcr.io/bts-sio-template/bts-sio-templates-flutter:latest",
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "Dart-Code.flutter",
+        "Dart-Code.dart-code",
+        "formulahendry.terminal"
+      ],
+      "settings": {
+        "sdk.flutter": "/usr/local/bin/flutter"
+      }
+    }
+  },
+
+  // Commande lancée une fois que le container est créé
+  "postCreateCommand": "flutter pub get"
+}
