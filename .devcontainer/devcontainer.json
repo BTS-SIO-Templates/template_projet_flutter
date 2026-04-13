@@ -1,7 +1,7 @@
 {
   "name": "Flutter SIO Prebuilt",
   // On pointe vers l'image que nous venons de fabriquer
-  "image": "ghcr.io/bts-sio-template/bts-sio-templates-flutter:latest",
+  "image": "ghcr.io/bts-sio-templates/docker-image-flutter:latest",
 
   "customizations": {
     "vscode": {
